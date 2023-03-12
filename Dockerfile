@@ -39,6 +39,7 @@ RUN apk add --no-cache \
     php7-fileinfo\>=7.4.33-r0 \
     php7-ftp\>=7.4.33-r0 \
     php7-calendar\>=7.4.33-r0 \
+    nodejs=14.20.1-r0 --repository=https://dl-cdn.alpinelinux.org/alpine/v3.13/main \
     && pip install --upgrade pip \
     && pip install awscli==1.27.74
 
